@@ -1,0 +1,314 @@
+#VRML V2.0 utf8
+
+Background {
+	skyColor 0.8 0.8 1
+}
+
+Viewpoint {
+	position -0 -30 350
+}
+
+#DEF Light1 PointLight {
+#	intensity 0.8
+#	color 0.8 0.9 1.0
+#	location -10 80 10
+#	radius 100
+#	attenuation 0.01 0.001 0
+#}
+
+DEF SpotL SpotLight {
+	ambientIntensity 0
+	attenuation 1 0 0
+	beamWidth 1.570796
+	color 1 1 1
+	cutOffAngle 0.85398
+	direction 0 0 -1
+	intensity 1
+	location -8 2 6
+	radius 80
+}
+
+#VT LOGO
+DEF Secure Transform {
+	translation -68 -39 4
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 0 1
+				}
+			}
+			geometry Text {
+				string "VT"
+				fontStyle FontStyle {
+					family "Helvetica"
+					size 120
+				}
+			}
+		}
+	]
+}
+
+DEF monitor Transform {
+	children [
+		# Display
+		Transform { 
+			translation 0 0 -0.2
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							transparency   0
+							diffuseColor 0.8 0.8 0.4
+						}
+						texture ImageTexture{
+							url "yellow_grad.jpg"
+						}
+					}
+					geometry Box {size 150 110 0.2}
+				}
+			]
+		}
+
+		Transform {
+			translation -80 -60 0
+			rotation 1 0 0 1.57
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.6 0.6 0.6
+						}
+					}
+					geometry Cylinder {radius 5 height 1}
+				}
+			]
+		}
+
+		Transform {
+			translation 80 -60 0
+			rotation 1 0 0 1.57
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.6 0.6 0.6
+						}
+					}
+					geometry Cylinder {radius 5 height 1}
+				}
+			]
+		}
+		Transform {
+			translation -80 60 0
+			rotation 1 0 0 1.57
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.6 0.6 0.6
+						}
+					}
+					geometry Cylinder {radius 5 height 1}
+				}
+			]
+		}
+
+		Transform {
+			translation 80 60 0
+			rotation 1 0 0 1.57
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.6 0.6 0.6
+						}
+					}
+					geometry Cylinder {radius 5 height 1}
+				}
+			]
+		}
+
+
+		#UP FRAME
+		Transform { 
+			translation 0 60 0
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.6 0.6 0.6
+						}
+					}
+					geometry Box {size 160 10 1}
+				}
+			]
+		}
+
+		#DOWN FRAME
+		Transform { 
+			translation 0 -60 0
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.6 0.6 0.6
+						}
+					}
+					geometry Box {size 160 10 1}
+				}
+			]
+		}
+
+		#LEFT FRAME
+		Transform { 
+			translation -80 0 0
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.6 0.6 0.6
+						}
+					}
+					geometry Box {size 10 120 1}
+				}
+			]
+		}
+
+		#Right FRAME
+		Transform { 
+			translation 80 0 0
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.6 0.6 0.6
+						}
+					}
+					geometry Box {size 10 120 1}
+				}
+			]
+		}
+
+	]
+}
+
+DEF keyboad Transform {
+	translation 0 -90 60
+	rotation 1 0 0 5.0
+
+	children [
+		Transform {
+			translation -80 -30 0
+			rotation 1 0 0 1.57
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 1 1
+							emissiveColor 0.3 0.3 0.3
+						}
+					}
+					geometry Cylinder {radius 5 height 2}
+				}
+			]
+		}
+
+		Transform {
+			translation 80 -30 0
+			rotation 1 0 0 1.57
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 1 1
+							emissiveColor 0.3 0.3 0.3
+						}
+					}
+					geometry Cylinder {radius 5 height 2}
+				}
+			]
+		}
+
+		Transform {
+			translation -80 50 0
+			rotation 1 0 0 1.57
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 1 1
+							emissiveColor 0.3 0.3 0.3
+						}
+					}
+					geometry Cylinder {radius 5 height 2}
+				}
+			]
+		}
+
+		Transform {
+			translation 80 50 0
+			rotation 1 0 0 1.57
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 1 1
+							emissiveColor 0.3 0.3 0.3
+						}
+					}
+					geometry Cylinder {radius 5 height 2}
+				}
+			]
+		}
+
+		#SIDE FIT
+		Transform { 
+			translation 0 10 0
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 1 1
+							emissiveColor 0.3 0.3 0.3
+						}
+					}
+					geometry Box {size 170 80 2}
+				}
+			]
+		}
+
+		#TATE FIT
+		Transform { 
+			translation 0 10 0
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 1 1
+							emissiveColor 0.3 0.3 0.3
+						}
+					}
+					geometry Box {size 160 90 2}
+				}
+			]
+		}
+
+		#KEY TOP
+		Transform { 
+			translation 0 10 6
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 1 1
+							emissiveColor 0.5 0.5 0.5
+						}
+					}
+					geometry Box {size 150 45 1}
+				}
+			]
+		}
+
+	]
+}
