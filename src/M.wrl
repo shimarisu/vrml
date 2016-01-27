@@ -31,10 +31,10 @@ DEF Secure Transform {
 	]
 }
 
+#Display
 DEF monitor Transform {
 	children [
-
-		#Back ground Filter
+		#Monitor
 		Transform { 
 			translation 0 0 -0.2
 			children [
@@ -112,7 +112,7 @@ DEF monitor Transform {
 			]
 		}
 
-		#UP FRAME
+		#UP bezel
 		Transform { 
 			translation 0 60 0
 			children [
@@ -127,7 +127,7 @@ DEF monitor Transform {
 			]
 		}
 
-		#DOWN FRAME
+		#DOWN bezel
 		Transform { 
 			translation 0 -60 0
 			children [
@@ -142,7 +142,7 @@ DEF monitor Transform {
 			]
 		}
 
-		#LEFT FRAME
+		#LEFT bezel
 		Transform { 
 			translation -80 0 0
 			children [
@@ -157,7 +157,7 @@ DEF monitor Transform {
 			]
 		}
 
-		#Right FRAME
+		#Right bezel
 		Transform { 
 			translation 80 0 0
 			children [
