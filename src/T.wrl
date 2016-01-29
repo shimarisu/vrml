@@ -54,7 +54,7 @@ DEF monitor Transform {
 					appearance Appearance {
 						material Material {
 #							transparency   0.2
-							diffuseColor 1 0.96 0.5
+							diffuseColor 1 0.9 0.5
 						}
 					}
 					geometry IndexedFaceSet {
@@ -74,6 +74,7 @@ DEF monitor Transform {
 				}
 			]
 		}
+		#Back ground 02
 		Transform { 
 			children [
 				Shape {
@@ -99,7 +100,7 @@ DEF monitor Transform {
 				}
 			]
 		}
-		#Back ground 02
+		#Back ground 03
 		Transform {
 			children [
 				Shape {
@@ -125,6 +126,7 @@ DEF monitor Transform {
 				}
 			]
 		}
+		#Back ground 04
 		Transform {
 			children [
 				Shape {
@@ -150,7 +152,7 @@ DEF monitor Transform {
 				}
 			]
 		}
-		#Back ground 03
+		#Back ground 05
 		Transform {
 			children [
 				Shape {
@@ -176,6 +178,7 @@ DEF monitor Transform {
 				}
 			]
 		}
+		#Back ground 06
 		Transform {
 			children [
 				Shape {
@@ -201,7 +204,7 @@ DEF monitor Transform {
 				}
 			]
 		}
-		#Back ground 04
+		#Back ground 07
 		Transform {
 			children [
 				Shape {
@@ -227,6 +230,7 @@ DEF monitor Transform {
 				}
 			]
 		}
+		#Back ground 08
 		Transform {
 			children [
 				Shape {
@@ -252,7 +256,7 @@ DEF monitor Transform {
 				}
 			]
 		}
-		#Back ground 05
+		#Back ground 09
 		Transform {
 			children [
 				Shape {
@@ -278,6 +282,7 @@ DEF monitor Transform {
 				}
 			]
 		}
+		#Back ground 10
 		Transform {
 			children [
 				Shape {
@@ -303,7 +308,7 @@ DEF monitor Transform {
 				}
 			]
 		}
-		#Back ground 06
+		#Back ground 11
 		Transform {
 			children [
 				Shape {
@@ -329,12 +334,13 @@ DEF monitor Transform {
 				}
 			]
 		}
+		#Back ground 12
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.99 0.89 0
+							diffuseColor 0.99 0.79 0
 						}
 					}
 					geometry IndexedFaceSet {
@@ -354,13 +360,13 @@ DEF monitor Transform {
 				}
 			]
 		}
-		#Back ground 07
+		#Back ground 13
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.98 0.88 0
+							diffuseColor 0.98 0.78 0
 						}
 					}
 					geometry IndexedFaceSet {
@@ -380,12 +386,13 @@ DEF monitor Transform {
 				}
 			]
 		}
+		#Back ground 14
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.97 0.87 0
+							diffuseColor 0.97 0.77 0
 						}
 					}
 					geometry IndexedFaceSet {
@@ -405,13 +412,13 @@ DEF monitor Transform {
 				}
 			]
 		}
-		#Back ground 08
+		#Back ground 15
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.96 0.86 0
+							diffuseColor 0.96 0.76 0
 						}
 					}
 					geometry IndexedFaceSet {
@@ -431,12 +438,13 @@ DEF monitor Transform {
 				}
 			]
 		}
+		#Back ground 16
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.95 0.85 0
+							diffuseColor 0.95 0.75 0
 						}
 					}
 					geometry IndexedFaceSet {
@@ -456,13 +464,13 @@ DEF monitor Transform {
 				}
 			]
 		}
-		#Back ground 09
+		#Back ground 17
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.94 0.84 0
+							diffuseColor 0.94 0.74 0
 						}
 					}
 					geometry IndexedFaceSet {
@@ -482,12 +490,13 @@ DEF monitor Transform {
 				}
 			]
 		}
+		#Back ground 18
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.93 0.83 0
+							diffuseColor 0.93 0.73 0
 						}
 					}
 					geometry IndexedFaceSet {
@@ -507,13 +516,13 @@ DEF monitor Transform {
 				}
 			]
 		}
-		#Back ground 10
+		#Back ground 19
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.92 0.82 0
+							diffuseColor 0.92 0.72 0
 						}
 					}
 					geometry IndexedFaceSet {
@@ -533,12 +542,13 @@ DEF monitor Transform {
 				}
 			]
 		}
+		#Back ground 20
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.91 0.81 0
+							diffuseColor 0.91 0.71 0
 						}
 					}
 					geometry IndexedFaceSet {
@@ -558,13 +568,13 @@ DEF monitor Transform {
 				}
 			]
 		}
-		#Back ground 11
+		#Back ground 21
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.9 0.8 0
+							diffuseColor 0.9 0.7 0
 						}
 					}
 					geometry IndexedFaceSet {
@@ -589,7 +599,7 @@ DEF monitor Transform {
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.89 0.79 0
+							diffuseColor 0.89 0.69 0
 						}
 					}
 					geometry IndexedFaceSet {
