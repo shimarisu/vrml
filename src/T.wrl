@@ -45,28 +45,51 @@ DEF T Transform {
 	]
 }
 
-
 DEF monitor Transform {
 	children [
 		#Back ground 01
-		Transform { 
-			translation 0 0 -1
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
 #							transparency   0.2
-							diffuseColor 1 0.8 0
+							diffuseColor 1 0.96 0.5
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	55	0.8,
-							-75	45	0.8,
-							75	45	0.8,
-							75	55	0.8
+							-75	55	0,
+							-75	50	0,
+							75	50	0,
+							75	55	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		Transform { 
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 0.89 0.45
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	50	0,
+							-75	45	0,
+							75	45	0,
+							75	50	0
 							]
 						}
 						coordIndex	[
@@ -77,23 +100,47 @@ DEF monitor Transform {
 			]
 		}
 		#Back ground 02
-		Transform { 
-			translation 0 0 -1
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.9 0.7 0
+							diffuseColor 1 0.88 0.4
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	45	0.8,
-							-75	35	0.8,
-							75	35	0.8,
-							75	45	0.8
+							-75	45	0,
+							-75	40	0,
+							75	40	0,
+							75	45	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 0.87 0.35
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	40	0,
+							-75	35	0,
+							75	35	0,
+							75	40	0
 							]
 						}
 						coordIndex	[
@@ -104,23 +151,47 @@ DEF monitor Transform {
 			]
 		}
 		#Back ground 03
-		Transform { 
-			translation 0 0 -1
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.8 0.6 0
+							diffuseColor 1 0.86 0.3
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	35	0.8,
-							-75	25	0.8,
-							75	25	0.8,
-							75	35	0.8
+							-75	35	0,
+							-75	30	0,
+							75	30	0,
+							75	35	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 0.85 0.25
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	30	0,
+							-75	25	0,
+							75	25	0,
+							75	30	0
 							]
 						}
 						coordIndex	[
@@ -131,23 +202,22 @@ DEF monitor Transform {
 			]
 		}
 		#Back ground 04
-		Transform { 
-			translation 0 0 -1
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.9 0.7 0
+							diffuseColor 1 0.84 0.2
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	25	0.8,
-							-75	15	0.8,
-							75	15	0.8,
-							75	25	0.8
+							-75	25	0,
+							-75	20	0,
+							75	20	0,
+							75	25	0
 							]
 						}
 						coordIndex	[
@@ -157,24 +227,22 @@ DEF monitor Transform {
 				}
 			]
 		}
-
-		Transform { 
-			translation 0 0 -1
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.9 0.7 0
+							diffuseColor 1 0.83 0.15
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	15	0.8,
-							-75	5	0.8,
-							75	5	0.8,
-							75	15	0.8
+							-75	20	0,
+							-75	15	0,
+							75	15	0,
+							75	20	0
 							]
 						}
 						coordIndex	[
@@ -184,24 +252,23 @@ DEF monitor Transform {
 				}
 			]
 		}
-
-		Transform { 
-			translation 0 0 -1
+		#Back ground 05
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.9 0.7 0
+							diffuseColor 1 0.82 0.1
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	5	0.8,
-							-75	-5	0.8,
-							75	-5	0.8,
-							75	5	0.8
+							-75	15	0,
+							-75	10	0,
+							75	10	0,
+							75	15	0
 							]
 						}
 						coordIndex	[
@@ -211,24 +278,22 @@ DEF monitor Transform {
 				}
 			]
 		}
-
-		Transform { 
-			translation 0 0 -1
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.9 0.7 0
+							diffuseColor 1 0.81 0.05
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	-5	0.8,
-							-75	-15	0.8,
-							75	-15	0.8,
-							75	-5	0.8
+							-75	10	0,
+							-75	5	0,
+							75	5	0,
+							75	10	0
 							]
 						}
 						coordIndex	[
@@ -238,24 +303,23 @@ DEF monitor Transform {
 				}
 			]
 		}
-
-		Transform { 
-			translation 0 0 -1
+		#Back ground 06
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.9 0.7 0
+							diffuseColor 1 0.8 0
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	-15	0.8,
-							-75	-25	0.8,
-							75	-25	0.8,
-							75	-15	0.8
+							-75	5	0,
+							-75	0	0,
+							75	0	0,
+							75	5	0
 							]
 						}
 						coordIndex	[
@@ -265,24 +329,22 @@ DEF monitor Transform {
 				}
 			]
 		}
-
-		Transform { 
-			translation 0 0 -1
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.9 0.7 0
+							diffuseColor 0.99 0.89 0
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	-25	0.8,
-							-75	-35	0.8,
-							75	-35	0.8,
-							75	-25	0.8
+							-75	0	0,
+							-75	-5	0,
+							75	-5	0,
+							75	0	0
 							]
 						}
 						coordIndex	[
@@ -292,24 +354,23 @@ DEF monitor Transform {
 				}
 			]
 		}
-
-		Transform { 
-			translation 0 0 -1
+		#Back ground 07
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.9 0.7 0
+							diffuseColor 0.98 0.88 0
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	-35	0.8,
-							-75	-45	0.8,
-							75	-45	0.8,
-							75	-35	0.8
+							-75	-5	0,
+							-75	-10	0,
+							75	-10	0,
+							75	-5	0
 							]
 						}
 						coordIndex	[
@@ -319,24 +380,226 @@ DEF monitor Transform {
 				}
 			]
 		}
-
-		Transform { 
-			translation 0 0 -1
+		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.9 0.7 0
+							diffuseColor 0.97 0.87 0
 						}
 					}
 					geometry IndexedFaceSet {
 						solid TRUE
 						coord Coordinate{
 							point	[
-							-75	-45	0.8,
-							-75	-55	0.8,
-							75	-55	0.8,
-							75	-45	0.8
+							-75	-10	0,
+							-75	-15	0,
+							75	-15	0,
+							75	-10	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		#Back ground 08
+		Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.96 0.86 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-15	0,
+							-75	-20	0,
+							75	-20	0,
+							75	-15	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.95 0.85 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-20	0,
+							-75	-25	0,
+							75	-25	0,
+							75	-20	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		#Back ground 09
+		Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.94 0.84 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-25	0,
+							-75	-30	0,
+							75	-30	0,
+							75	-25	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.93 0.83 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-30	0,
+							-75	-35	0,
+							75	-35	0,
+							75	-30	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		#Back ground 10
+		Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.92 0.82 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-35	0,
+							-75	-40	0,
+							75	-40	0,
+							75	-35	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.91 0.81 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-40	0,
+							-75	-45	0,
+							75	-45	0,
+							75	-40	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		#Back ground 11
+		Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.9 0.8 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-45	0,
+							-75	-50	0,
+							75	-50	0,
+							75	-45	0
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.89 0.79 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-50	0,
+							-75	-55	0,
+							75	-55	0,
+							75	-50	0
 							]
 						}
 						coordIndex	[
