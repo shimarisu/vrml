@@ -48,24 +48,323 @@ DEF T Transform {
 
 DEF monitor Transform {
 	children [
-		# monitor
+		#Back ground 01
 		Transform { 
-			translation 0 0 -0.2
+			translation 0 0 -1
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							transparency   0
-							diffuseColor 0.8 0.8 0.4
-						}
-						texture ImageTexture{
-							url "yellow_grad.jpg"
+#							transparency   0.2
+							diffuseColor 1 0.8 0
 						}
 					}
-					geometry Box {size 150 110 0.2}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	55	0.8,
+							-75	45	0.8,
+							75	45	0.8,
+							75	55	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
 				}
 			]
 		}
+		#Back ground 02
+		Transform { 
+			translation 0 0 -1
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.9 0.7 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	45	0.8,
+							-75	35	0.8,
+							75	35	0.8,
+							75	45	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		#Back ground 03
+		Transform { 
+			translation 0 0 -1
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.8 0.6 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	35	0.8,
+							-75	25	0.8,
+							75	25	0.8,
+							75	35	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+		#Back ground 04
+		Transform { 
+			translation 0 0 -1
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.9 0.7 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	25	0.8,
+							-75	15	0.8,
+							75	15	0.8,
+							75	25	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+
+		Transform { 
+			translation 0 0 -1
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.9 0.7 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	15	0.8,
+							-75	5	0.8,
+							75	5	0.8,
+							75	15	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+
+		Transform { 
+			translation 0 0 -1
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.9 0.7 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	5	0.8,
+							-75	-5	0.8,
+							75	-5	0.8,
+							75	5	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+
+		Transform { 
+			translation 0 0 -1
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.9 0.7 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-5	0.8,
+							-75	-15	0.8,
+							75	-15	0.8,
+							75	-5	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+
+		Transform { 
+			translation 0 0 -1
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.9 0.7 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-15	0.8,
+							-75	-25	0.8,
+							75	-25	0.8,
+							75	-15	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+
+		Transform { 
+			translation 0 0 -1
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.9 0.7 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-25	0.8,
+							-75	-35	0.8,
+							75	-35	0.8,
+							75	-25	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+
+		Transform { 
+			translation 0 0 -1
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.9 0.7 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-35	0.8,
+							-75	-45	0.8,
+							75	-45	0.8,
+							75	-35	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+
+		Transform { 
+			translation 0 0 -1
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.9 0.7 0
+						}
+					}
+					geometry IndexedFaceSet {
+						solid TRUE
+						coord Coordinate{
+							point	[
+							-75	-45	0.8,
+							-75	-55	0.8,
+							75	-55	0.8,
+							75	-45	0.8
+							]
+						}
+						coordIndex	[
+							0,1,2,3,-1
+						]
+					}
+				}
+			]
+		}
+
+		# monitor
+#		Transform { 
+#			translation 0 0 -0.2
+#			children [
+#				Shape {
+#					appearance Appearance {
+#						material Material {
+#							transparency   0
+#							diffuseColor 0.8 0.8 0.4
+#						}
+#						texture ImageTexture{
+#							url "yellow_grad.jpg"
+#						}
+#					}
+#					geometry Box {size 150 110 0.2}
+#				}
+#			]
+#		}
 		Transform {
 			translation -80 -60 0
 			rotation 1 0 0 1.57
