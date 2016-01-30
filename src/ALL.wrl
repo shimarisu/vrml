@@ -709,17 +709,17 @@ DEF monitor Transform {
 
 DEF Lock Transform {
 #	translation -35 5 -44
-	translation -35 10 -12
+	translation -35 10 10
 	children [
 		Transform {
 			children [
 				Shape {
 					appearance Appearance {
 						material Material {
-							diffuseColor 0.1 0.4 0
+							diffuseColor 0.1 0.3 0
 #							specularColor 1 1 0.2
 #							shininess 1
-							transparency   0.2
+#							transparency   0.2
 						}
 					}
 					geometry IndexedFaceSet {
