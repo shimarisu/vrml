@@ -709,7 +709,7 @@ DEF monitor Transform {
 
 DEF Lock Transform {
 #	translation -35 5 -44
-	translation -35 10 10
+	translation -35 7 10
 	children [
 		Transform {
 			children [
