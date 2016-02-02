@@ -38,7 +38,6 @@ DEF monitor Transform {
 				Shape {
 					appearance Appearance {
 						material Material {
-#							transparency   0.2
 							diffuseColor 1 0.9 0.5
 						}
 					}
