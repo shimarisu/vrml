@@ -8,7 +8,7 @@ Viewpoint {
 	position -0 -30 350
 }
 
-#VT LOGO
+#VT ロゴ(branchAに加えた変更)
 DEF Secure Transform {
 	translation -68 -39 4
 	children [
