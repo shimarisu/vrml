@@ -10,11 +10,13 @@ VRML(拡張子 .wrl)を見るには
 Cortona 3D Viewer というActive Xのプラグインを入れて IE11で開いてください。
 http://www.cortona3d.com/
 
-- [ ] TeraTermのアイコン
+- [x] TeraTermのアイコン
 - [ ] TTSSHのアイコン
 - [ ] VT字のアイコン
 - [ ] M(マクロ)のアイコン
 - [ ] Cygtermのアイコン
 - [ ] keycodeのアイコン
+- [ ] FFFTPのアイコン
+- [ ] Rotary Engine's VRML
 
 等のブラッシュアップが出来ればよいと、思っております。
