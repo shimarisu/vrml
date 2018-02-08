@@ -5,7 +5,7 @@ Background {
 }
 
 Viewpoint {
-	position -0 -30 350
+	position 0 -30 350
 }
 
 # T Logo
